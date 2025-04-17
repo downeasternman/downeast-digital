@@ -87,7 +87,7 @@ export default function Contact() {
                 </svg>
                 <div>
                   <h3 className="font-semibold text-gray-800">Email</h3>
-                  <p className="text-gray-700">info@downeastdigital.com</p>
+                  <p className="text-gray-700">Use the contact form below to reach us</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -96,7 +96,9 @@ export default function Contact() {
                 </svg>
                 <div>
                   <h3 className="font-semibold text-gray-800">Phone</h3>
-                  <p className="text-gray-700">(207) 555-0123</p>
+                  <a href="tel:2074943046" className="text-blue-700 hover:text-blue-900">
+                    (207) 494-3046
+                  </a>
                 </div>
               </div>
               <div className="flex items-start">

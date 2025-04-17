@@ -19,7 +19,7 @@ export async function POST(request: Request) {
 
     // Create email content
     const msg = {
-      to: process.env.CONTACT_EMAIL || 'your-email@example.com', // Your business email
+      to: 'downeastclancy@gmail.com', // Your business email
       from: process.env.SENDGRID_VERIFIED_SENDER || 'noreply@downeastdigital.com', // Your verified sender
       replyTo: email,
       subject: `New Contact Form Submission from ${name}`,
